@@ -1,8 +1,14 @@
 # Java_Integer_Sorting_Stack
 - This repository contains Java code for sorting a user-inputted list of integer values from least to greatest, using a Stack framework.
 
-# Purpose
+# Purpose and Overview
 - The purpose of **IntegerStackSorting.java** is to allow the user to enter a comma-delimited list of Integer values and to receive a display of these values sorted from least to greatest.
+- **IntegerStackSorting.java** contains the public class **IntegerStackSorting** which has the following methods:
+<br /> - **IntegerStackSorting()**: constructor method for **IntegerStackSorting** class
+<br /> -  **inputStack()**: uses a Scanner object to prompt and accept user input, collected as a comma-delimited list of integer values, then returns a Stack object containing these values
+<br /> -  **sortStack()**: accepts a Stack object, runs .sort() on the object, returns Stack object
+<br /> -  **printStack()**: accepts a Stack object, outputs a formatted display of the Stack contents using ListIterator
+<br /> -  For more information, please reference the README.txt file contained in **birdn-IntegerStackSorting.zip**
 
 # General Information
 - Author: Natalie Bird
